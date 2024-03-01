@@ -1,0 +1,54 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* * Color variables */
+:root {
+  /* Global colors */
+  --green: hsl(104, 58%, 47%);
+  --orange: hsl(28, 96%, 48%);
+  --white: hsl(0, 0%, 96%);
+
+  /* Specific colors */
+  --mobileMenuBG: hsla(0, 0%, 0%, 0.95);
+  --menuHover: hsla(0, 0%, 0%, 0.3);
+  --lightbox: hsla(0, 0%, 10%, 0.95);
+}
+
+/* * Fonts */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Mobile font sizes */
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+/* Desktop font sizes */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+}
