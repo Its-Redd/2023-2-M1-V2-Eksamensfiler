@@ -80,7 +80,7 @@ header > img {
 }
 
 footer {
-  width: 80%;
+  width: 100%;
 }
 
 #juiceFooter {
@@ -101,6 +101,10 @@ footer > img {
 
   header > img {
     display: none;
+  }
+
+  footer {
+    width: 80%;
   }
 
   footer > img:nth-of-type(4) {
