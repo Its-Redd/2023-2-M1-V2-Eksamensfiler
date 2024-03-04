@@ -66,12 +66,31 @@ main {
   padding: 1rem;
 }
 
+header > a > img {
+  width: 180px;
+  margin: 0 1rem;
+}
+
 header > img {
   position: absolute;
   width: 50px;
   height: 50px;
   top: 20px;
   right: 10px;
+}
+
+footer {
+  width: 80%;
+}
+
+#juiceFooter {
+  width: 100%;
+}
+
+footer > img {
+  width: 50px;
+  height: 50px;
+  margin: 0 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -83,4 +102,11 @@ header > img {
   header > img {
     display: none;
   }
+
+  footer > img:nth-of-type(4) {
+    width: 100px;
+    height: 100px;
+  }
 }
+
+/* * Index Specific Styling */
