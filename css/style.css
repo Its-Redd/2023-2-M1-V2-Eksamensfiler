@@ -60,6 +60,7 @@ header {
   background-color: var(--green);
   padding: 0.5rem;
   height: 80px;
+  width: 100%;
 }
 
 main {
@@ -114,3 +115,19 @@ footer > img {
 }
 
 /* * Index Specific Styling */
+
+.bigLogo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bigLogo {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* * Classes for JavaScript use */
+.hidden {
+  display: none;
+}
