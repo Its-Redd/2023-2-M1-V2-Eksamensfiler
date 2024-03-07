@@ -82,6 +82,7 @@ header > img {
 
 footer {
   width: 100%;
+  background-color: var(--green);
 }
 
 #juiceFooter {
